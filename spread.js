@@ -17,8 +17,8 @@ let product = {
   imageUrl: 'https://i.ebayimg.com/images/g/9T4AAOSwbmdZf2jN/s-l640.jpg'
 }
 
-let productCopy = [];
-function duplicate(){
+let productCopy = {};
+function duplicate(product){
   return productCopy(...product)
 }
 
@@ -33,7 +33,10 @@ let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
 // code here
 
-
+let copyColors = [];
+function dupe(colors){
+  return copyColors(...colors);
+}
 
 
 ////////// PROBLEM 3 //////////
